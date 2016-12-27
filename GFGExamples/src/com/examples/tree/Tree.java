@@ -5,6 +5,17 @@ public class Tree {
 	private Tree leftChild;
 	private Tree rightChild;
 	
+	public Tree() {
+	}
+	public Tree(Integer data, Tree leftChild, Tree rightChild) {
+		this.data = data;
+		this.leftChild = leftChild;
+		this.rightChild = rightChild;
+	}
+	
+	public Tree(Integer data) {
+		this.data = data;
+	}
 	public Integer getData() {
 		return data;
 	}
