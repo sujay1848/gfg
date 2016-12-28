@@ -1,7 +1,7 @@
 package com.examples.tree;
 
 public class TreeUtil {
-
+	public static final int [] DATA = {3,2,5,6,90,56,34,67,23,10,45,89,78,109,111,22,400,300,1};
 	public static Tree buildBinaryTree(int data[]) {
 		if (data.length == 0)
 			return null;
